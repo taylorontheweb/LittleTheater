@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3A031A71B516C8D008E5815 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A031A61B516C8D008E5815 /* AppDelegate.swift */; };
+		D3A031A91B516C8D008E5815 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A031A81B516C8D008E5815 /* RootViewController.swift */; };
+		D3A031AB1B516C8D008E5815 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A031AA1B516C8D008E5815 /* DataViewController.swift */; };
+		D3A031AD1B516C8E008E5815 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A031AC1B516C8E008E5815 /* ModelController.swift */; };
+		D3A031B01B516C8E008E5815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A031AE1B516C8E008E5815 /* Main.storyboard */; };
+		D3A031B21B516C8E008E5815 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A031B11B516C8E008E5815 /* Images.xcassets */; };
+		D3A031B51B516C8E008E5815 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3A031B31B516C8E008E5815 /* LaunchScreen.xib */; };
+		D3A031C11B516C8E008E5815 /* LittleTheaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A031C01B516C8E008E5815 /* LittleTheaterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3A031BB1B516C8E008E5815 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3A031991B516C8D008E5815 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3A031A01B516C8D008E5815;
+			remoteInfo = LittleTheater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3A031A11B516C8D008E5815 /* LittleTheater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleTheater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A031A51B516C8D008E5815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3A031A61B516C8D008E5815 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3A031A81B516C8D008E5815 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		D3A031AA1B516C8D008E5815 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		D3A031AC1B516C8E008E5815 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		D3A031AF1B516C8E008E5815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3A031B11B516C8E008E5815 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3A031B41B516C8E008E5815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D3A031BA1B516C8E008E5815 /* LittleTheaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleTheaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A031BF1B516C8E008E5815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3A031C01B516C8E008E5815 /* LittleTheaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleTheaterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3A0319E1B516C8D008E5815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A031B71B516C8E008E5815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3A031981B516C8D008E5815 = {
+			isa = PBXGroup;
+			children = (
+				D3A031A31B516C8D008E5815 /* LittleTheater */,
+				D3A031BD1B516C8E008E5815 /* LittleTheaterTests */,
+				D3A031A21B516C8D008E5815 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3A031A21B516C8D008E5815 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3A031A11B516C8D008E5815 /* LittleTheater.app */,
+				D3A031BA1B516C8E008E5815 /* LittleTheaterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3A031A31B516C8D008E5815 /* LittleTheater */ = {
+			isa = PBXGroup;
+			children = (
+				D3A031A61B516C8D008E5815 /* AppDelegate.swift */,
+				D3A031A81B516C8D008E5815 /* RootViewController.swift */,
+				D3A031AA1B516C8D008E5815 /* DataViewController.swift */,
+				D3A031AC1B516C8E008E5815 /* ModelController.swift */,
+				D3A031AE1B516C8E008E5815 /* Main.storyboard */,
+				D3A031B11B516C8E008E5815 /* Images.xcassets */,
+				D3A031B31B516C8E008E5815 /* LaunchScreen.xib */,
+				D3A031A41B516C8D008E5815 /* Supporting Files */,
+			);
+			path = LittleTheater;
+			sourceTree = "<group>";
+		};
+		D3A031A41B516C8D008E5815 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3A031A51B516C8D008E5815 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3A031BD1B516C8E008E5815 /* LittleTheaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3A031C01B516C8E008E5815 /* LittleTheaterTests.swift */,
+				D3A031BE1B516C8E008E5815 /* Supporting Files */,
+			);
+			path = LittleTheaterTests;
+			sourceTree = "<group>";
+		};
+		D3A031BE1B516C8E008E5815 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3A031BF1B516C8E008E5815 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3A031A01B516C8D008E5815 /* LittleTheater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3A031C41B516C8E008E5815 /* Build configuration list for PBXNativeTarget "LittleTheater" */;
+			buildPhases = (
+				D3A0319D1B516C8D008E5815 /* Sources */,
+				D3A0319E1B516C8D008E5815 /* Frameworks */,
+				D3A0319F1B516C8D008E5815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleTheater;
+			productName = LittleTheater;
+			productReference = D3A031A11B516C8D008E5815 /* LittleTheater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3A031B91B516C8E008E5815 /* LittleTheaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3A031C71B516C8E008E5815 /* Build configuration list for PBXNativeTarget "LittleTheaterTests" */;
+			buildPhases = (
+				D3A031B61B516C8E008E5815 /* Sources */,
+				D3A031B71B516C8E008E5815 /* Frameworks */,
+				D3A031B81B516C8E008E5815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3A031BC1B516C8E008E5815 /* PBXTargetDependency */,
+			);
+			name = LittleTheaterTests;
+			productName = LittleTheaterTests;
+			productReference = D3A031BA1B516C8E008E5815 /* LittleTheaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3A031991B516C8D008E5815 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Gustalagsta;
+				TargetAttributes = {
+					D3A031A01B516C8D008E5815 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D3A031B91B516C8E008E5815 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D3A031A01B516C8D008E5815;
+					};
+				};
+			};
+			buildConfigurationList = D3A0319C1B516C8D008E5815 /* Build configuration list for PBXProject "LittleTheater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3A031981B516C8D008E5815;
+			productRefGroup = D3A031A21B516C8D008E5815 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3A031A01B516C8D008E5815 /* LittleTheater */,
+				D3A031B91B516C8E008E5815 /* LittleTheaterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3A0319F1B516C8D008E5815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A031B01B516C8E008E5815 /* Main.storyboard in Resources */,
+				D3A031B51B516C8E008E5815 /* LaunchScreen.xib in Resources */,
+				D3A031B21B516C8E008E5815 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A031B81B516C8E008E5815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3A0319D1B516C8D008E5815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A031A91B516C8D008E5815 /* RootViewController.swift in Sources */,
+				D3A031AD1B516C8E008E5815 /* ModelController.swift in Sources */,
+				D3A031AB1B516C8D008E5815 /* DataViewController.swift in Sources */,
+				D3A031A71B516C8D008E5815 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A031B61B516C8E008E5815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A031C11B516C8E008E5815 /* LittleTheaterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3A031BC1B516C8E008E5815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3A031A01B516C8D008E5815 /* LittleTheater */;
+			targetProxy = D3A031BB1B516C8E008E5815 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3A031AE1B516C8E008E5815 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3A031AF1B516C8E008E5815 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3A031B31B516C8E008E5815 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3A031B41B516C8E008E5815 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3A031C21B516C8E008E5815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3A031C31B516C8E008E5815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3A031C51B516C8E008E5815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LittleTheater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3A031C61B516C8E008E5815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LittleTheater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3A031C81B516C8E008E5815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LittleTheaterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleTheater.app/LittleTheater";
+			};
+			name = Debug;
+		};
+		D3A031C91B516C8E008E5815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LittleTheaterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleTheater.app/LittleTheater";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3A0319C1B516C8D008E5815 /* Build configuration list for PBXProject "LittleTheater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A031C21B516C8E008E5815 /* Debug */,
+				D3A031C31B516C8E008E5815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3A031C41B516C8E008E5815 /* Build configuration list for PBXNativeTarget "LittleTheater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A031C51B516C8E008E5815 /* Debug */,
+				D3A031C61B516C8E008E5815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3A031C71B516C8E008E5815 /* Build configuration list for PBXNativeTarget "LittleTheaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A031C81B516C8E008E5815 /* Debug */,
+				D3A031C91B516C8E008E5815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3A031991B516C8D008E5815 /* Project object */;
+}
